@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <carriers>
+            <tig>
+                <active>1</active>
+                <sallowspecific>0</sallowspecific>
+                <model>TIG\OpenFreight\Model\Carrier\OpenFreight</model>
+                <name>OpenFreight Shipping</name>
+                <title>OpenFreight Shipping</title>
+                <api_endpoint><![CDATA[https://api.openfreight.com.au]]></api_endpoint>
+                <specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
+            </tig>
+        </carriers>
+    </default>
+</config>
